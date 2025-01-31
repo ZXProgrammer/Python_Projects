@@ -32,13 +32,3 @@ if incorrect guess life = life - 1
 
 if life = 0 
     break
-
-Dynamic Conditioning
-
-Player One will set the game 
-Player Two will player
-
-player input will be added to the empty list
-player will write letters each letter will be appended into the 
-
-
