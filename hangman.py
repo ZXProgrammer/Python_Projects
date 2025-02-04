@@ -14,7 +14,6 @@ def main():
     question = []
     answer = []
 
-    
     start()
 
     game_setter = input("Set Word\n\n")
@@ -24,7 +23,6 @@ def main():
     
     start()
 
-    
     for letter in game_setter:
         answer.append(letter)
 
@@ -55,6 +53,6 @@ def main():
             if life == 0:
                 print("Game OVER\n")
                 break
-
+                
 if __name__ == "__main__":
     main()
