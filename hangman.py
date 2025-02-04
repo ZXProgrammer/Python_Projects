@@ -14,15 +14,17 @@ def main():
     question = []
     answer = []
 
+    
     start()
 
     game_setter = input("Set Word\n\n")
     hint_input = input("Enter Hint\n\n")
 
     system_clear()
-
+    
     start()
 
+    
     for letter in game_setter:
         answer.append(letter)
 
@@ -56,4 +58,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
